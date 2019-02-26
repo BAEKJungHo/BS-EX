@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>전자정부_백정호</title>
+    <style>
+      td { text-align : center; }
+    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- 네이게이션 바 -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- 점보 트론 -->
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Self-Introduction</h1>
+        <p>BAEK JUNG HO</p>
+        <p><a class="btn btn-primary btn-lg" href="https://designjava.tistory.com" role="button" style="background-color:darkred;" target="_blank">DesignJava Blog</a>&nbsp;
+           <a class="btn btn-primary btn-lg" href="https://github.com/BAEKJungHo" role="button" style="background-color:darkred;" target="_blank">GitHub</a></p>
+      </div>
+
+      <!-- 테이블 -->
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <table class="table table-striped">
+            <caption>Information</caption>
+            <thead>
+              <tr class="info"><th class="col-md-2" style="text-align:center">속성&nbsp;<span class="glyphicon glyphicon-user" aria-hidden="true"></span></th>
+                <th class="col-md-7" style="text-align:center">정보</th>
+                <th class="col-md-3" style="text-align:center"><button type="button" class="btn btn-default">Default</button></th></tr>
+            </thead>
+            <tbody>
+              <tr class="active"><td>이름</td><td>백정호</td><td><button type="button" class="btn btn-primary">Primary</button></td></tr>
+              <tr><td>나이</td><td>26살</td><td><button type="button" class="btn btn-primary">Primary</button></td></tr>
+              <tr class="active"><td>출생일</td><td>1994.05.02</td><td><button type="button" class="btn btn-primary">Primary</button></td></tr>
+              <tr class="active"><td>본가</td><td>천안 직산읍 우성아파트 101-307호</td><td><button type="button" class="btn btn-warning">Primary</button></td></tr>
+              <tr><td>사는곳</td><td>대전 갈마동 럭키빌라 202호</td><td><button type="button" class="btn btn-success">Primary</button></td></tr>
+              <tr class="active"><td>핸드폰</td><td>010-8924-1810</td><td><button type="button" class="btn btn-primary">Primary</button></td></tr>
+              <tr><td>가족구성</td><td>할머니,어머니,아버지,삼촌,동생</td><td><button type="button" class="btn btn-danger">Primary</button></td></tr>
+              <tr class="active"><td>여동생</td><td>24살, 한기대 산업 디자인학과 4학년 재학 중</td><td><button type="button" class="btn btn-link">Primary</button></td></tr>
+            </tbody>
+          </table>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+      <!-- 인라인 폼 -->
+      <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword3">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me &nbsp;
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Sign in
+        </label>
+      </div>
+    </form>
+
+    <!-- ===================================================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
